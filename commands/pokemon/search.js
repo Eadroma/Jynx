@@ -46,7 +46,7 @@ module.exports = class SearchPokemon extends Command {
 				.addField("**Type**", pdx.type, true)
 				.addField("**Gen**", pdx.generation, false);
 				return message.say(PkmnEmbed);
-			} 
+			}
 			if (err)
 				return message.say("We couldn't find your pokemon !");
 		})
